@@ -1,5 +1,5 @@
 # Project ID variable
 variable "project" {
-  type = string
+  type        = string
   description = "Enter Project ID"
 }
