@@ -22,6 +22,6 @@ provider "kubernetes" {
 
 provider "google" {
   region      = "europe-west1"
-  project     = var.project_name
+  project     = var.project
   credentials = file("service-account.json")
 }

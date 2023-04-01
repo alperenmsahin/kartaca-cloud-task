@@ -1,4 +1,5 @@
-# Project name variable
-variable "project_name" {
+# Project ID variable
+variable "project" {
   type = string
+  description = "Enter Project ID"
 }
